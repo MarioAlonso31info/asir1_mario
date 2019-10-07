@@ -1,0 +1,71 @@
+<?php
+function meses($n){
+$a=[
+	[
+		'nombre'=>'Enero',
+		'dias'=>'31',
+		'estacion'=>'Invierno',
+	],
+	[
+	'nombre'=>'Febrero',
+		'dias'=>'28',
+		'estacion'=>'Invierno',
+	],
+	[
+	'nombre'=>'Marzo',
+		'dias'=>'31',
+		'estacion'=>'Invierno/Primavera',
+	],
+	[
+	'nombre'=>'Abril',
+		'dias'=>'30',
+		'estacion'=>'Primavera',
+	],
+	[
+	'nombre'=>'Mayo',
+		'dias'=>'31',
+		'estacion'=>'Primavera',
+	],
+	[
+	'nombre'=>'Junio',
+		'dias'=>'30',
+		'estacion'=>'Primavera/Verano',
+	],
+	[
+	'nombre'=>'Julio',
+		'dias'=>'31',
+		'estacion'=>'Verano',
+	],
+	[
+	'nombre'=>'Agosto',
+		'dias'=>'31',
+		'estacion'=>'Verano',
+	],
+	[
+	'nombre'=>'Septiembre',
+		'dias'=>'30',
+		'estacion'=>'Verano/Otoño',
+	],
+	[
+	'nombre'=>'Octubre',
+		'dias'=>'31',
+		'estacion'=>'Otoño',
+	],
+	[
+	'nombre'=>'Noviembre',
+		'dias'=>'30',
+		'estacion'=>'Otoño',
+	],
+	[
+	'nombre'=>'Diciembre',
+		'dias'=>'31',
+		'estacion'=>'Otoño',
+	],
+];
+$r=null;
+$r=$r.$a[$n-1]['nombre']."<br>";
+$r=$r.$a[$n-1]['dias']."<br>";
+$r=$r.$a[$n-1]['estacion']."<br>";
+return $r;
+}
+echo meses(11);
