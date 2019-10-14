@@ -8,7 +8,7 @@ function longitud ($a,$b,$c) {
 		
 	return $r;
 }
-echo longitud (1,1,1)."<br>";
+echo longitud (1,1,1);
 echo longitud (1,2,1)."<br>";
 echo longitud (3,2,1)."<br>";
 ?>
