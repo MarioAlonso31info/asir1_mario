@@ -20,7 +20,15 @@ function angulo ($a,$b,$c) {
 function tipo($a,$b,$c,$d,$e,$f) {
 	return longitud($a,$b,$c).' y '.angulo($d,$e,$f);
 }
-echo tipo(45,45,90,45,45,90);
+echo tipo(70,45,90,90,45,90);
+echo '<br>';
+echo tipo(1,1,1,60,60,60);
+echo '<br>';
+echo tipo(60,60,60,90,90,90);
+echo '<br>';
+echo tipo(1,1,1,60,60,60);
+echo '<br>';
+echo tipo(60,60,90,30,30,30);
 echo '<br>';
 echo tipo(1,1,1,60,60,60);
 ?>
